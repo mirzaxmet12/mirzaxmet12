@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 500px;
+  margin: 0 auto;
+}
+.box-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
+.box-item img {
+  border-radius: 20px;
+  display: block;
+  width: 400px;
+  height: 300px;
+}
+.box-item-text {
+  font-size: 15px;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+}/*# sourceMappingURL=style.css.map */
